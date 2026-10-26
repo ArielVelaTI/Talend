@@ -13,7 +13,7 @@
     <maven.compiler.source>17</maven.compiler.source>
     <slf4j-api.version>1.7.34</slf4j-api.version>
     <encoding>UTF-8</encoding>
-    <signer.version>8.0.20</signer.version>
+    <signer.version>8.0.22</signer.version>
     <add-opens>true</add-opens>
     <maven.compiler.target>17</maven.compiler.target>
     <compliance>17</compliance>
@@ -28,75 +28,12 @@
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.15.0</version>
           <dependencies>
-            <dependency>
-              <groupId>org.bouncycastle</groupId>
-              <artifactId>bcprov-jdk18on</artifactId>
-              <version>1.84</version>
-            </dependency>
-            <dependency>
-              <groupId>org.bouncycastle</groupId>
-              <artifactId>bcpg-jdk18on</artifactId>
-              <version>1.84</version>
-            </dependency>
             <dependency>
               <groupId>org.eclipse.tycho</groupId>
               <artifactId>tycho-compiler-jdt</artifactId>
-              <version>4.0.8</version>
-              <exclusions>
-                <exclusion>
-                  <groupId>org.bouncycastle</groupId>
-                  <artifactId>bcpg-jdk15on</artifactId>
-                </exclusion>
-                <exclusion>
-                  <groupId>org.bouncycastle</groupId>
-                  <artifactId>bcprov-jdk15on</artifactId>
-                </exclusion>
-                <exclusion>
-                  <groupId>org.iq80.snappy</groupId>
-                  <artifactId>snappy</artifactId>
-                </exclusion>
-              </exclusions>
-            </dependency>
-            <dependency>
-              <groupId>org.codehaus.plexus</groupId>
-              <artifactId>plexus-io</artifactId>
-              <version>3.5.1</version>
-              <exclusions>
-                <exclusion>
-                  <groupId>org.codehaus.plexus</groupId>
-                  <artifactId>plexus-utils</artifactId>
-                </exclusion>
-              </exclusions>
-            </dependency>
-            <dependency>
-              <groupId>org.codehaus.plexus</groupId>
-              <artifactId>plexus-archiver</artifactId>
-              <version>4.8.0</version>
-              <exclusions>
-                <exclusion>
-                  <groupId>commons-io</groupId>
-                  <artifactId>commons-io</artifactId>
-                </exclusion>
-                <exclusion>
-                  <groupId>org.codehaus.plexus</groupId>
-                  <artifactId>plexus-utils</artifactId>
-                </exclusion>
-                <exclusion>
-                  <groupId>org.iq80.snappy</groupId>
-                  <artifactId>snappy</artifactId>
-                </exclusion>
-                <exclusion>
-                  <groupId>org.apache.commons</groupId>
-                  <artifactId>commons-compress</artifactId>
-                </exclusion>
-              </exclusions>
-            </dependency>
-            <dependency>
-              <groupId>org.iq80.snappy</groupId>
-              <artifactId>snappy</artifactId>
-              <version>0.5</version>
+              <version>5.0.3</version>
             </dependency>
             <dependency>
               <groupId>org.codehaus.plexus</groupId>
@@ -104,24 +41,9 @@
               <version>4.0.3</version>
             </dependency>
             <dependency>
-              <groupId>org.apache.commons</groupId>
-              <artifactId>commons-compress</artifactId>
-              <version>1.28.0</version>
-            </dependency>
-            <dependency>
               <groupId>commons-io</groupId>
               <artifactId>commons-io</artifactId>
               <version>2.20.0</version>
-            </dependency>
-            <dependency>
-              <groupId>org.apache.commons</groupId>
-              <artifactId>commons-lang3</artifactId>
-              <version>3.18.0</version>
-            </dependency>
-            <dependency>
-              <groupId>commons-codec</groupId>
-              <artifactId>commons-codec</artifactId>
-              <version>1.19.0</version>
             </dependency>
           </dependencies>
           <configuration>
@@ -385,7 +307,7 @@
           <plugin>
             <groupId>org.talend.ci</groupId>
             <artifactId>cloudpublisher-maven-plugin</artifactId>
-            <version>8.0.18</version>
+            <version>8.0.24</version>
             <executions>
               <execution>
                 <phase>deploy</phase>
