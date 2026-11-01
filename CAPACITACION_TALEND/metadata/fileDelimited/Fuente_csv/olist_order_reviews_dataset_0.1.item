@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_ok59oNFeEfG9y9uSWbWHWw" name="olist_order_reviews_dataset" supplierDependency="_lgxfcNF4EfGk7IBz-sW1Kg" dataPackage="_ok59odFeEfG9y9uSWbWHWw" Server="Localhost 127.0.0.1" FilePath="C:/Talend_csv/olist_order_reviews_dataset.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ok59odFeEfG9y9uSWbWHWw" name="default" dataManager="_ok59oNFeEfG9y9uSWbWHWw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ok59otFeEfG9y9uSWbWHWw" id="_PhNPoNFeEfG9y9uSWbWHWw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ok59o9FeEfG9y9uSWbWHWw" id="_review_id" label="_review_id" length="52" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_lgxfcdF4EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ok6ksNFeEfG9y9uSWbWHWw" id="_order_id" label="_order_id" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_lgxfhNF4EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ok6ksdFeEfG9y9uSWbWHWw" id="_review_score" label="_review_score" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_lgxfl9F4EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ok6kstFeEfG9y9uSWbWHWw" id="_review_comment_title" label="_review_comment_title" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_lgxfqtF4EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ok6ks9FeEfG9y9uSWbWHWw" id="_review_comment_message" label="_review_comment_message" length="175" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_lgxfvdF4EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ok6ktNFeEfG9y9uSWbWHWw" id="_review_creation_date" label="_review_creation_date" length="106" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_lgxf0NF4EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ok6ktdFeEfG9y9uSWbWHWw" id="_review_answer_timestamp" label="_review_answer_timestamp" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_lgxf49F4EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ok6kttFeEfG9y9uSWbWHWw" id="Column7" label="Column7" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_lgyGktF4EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_lgxfcNF4EfGk7IBz-sW1Kg" kind="Usage" supplier="_ok59oNFeEfG9y9uSWbWHWw">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Analisis_de_orders_reviews_0.1.ana#_ZFit0NF4EfGk7IBz-sW1Kg"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_e7rssNF2EfGk7IBz-sW1Kg" name="R_analisis_de_geolocalizacion" creationDate="2026-10-26T14:50:23.734-0500" defaultContext="Default">
+  <clientDependency href="../Analyses/analisis_de_geolocalizacion_0.1.ana#_e7v-INF2EfGk7IBz-sW1Kg"/>
+  <taggedValue xmi:id="_e7rssdF2EfGk7IBz-sW1Kg" tag="OutputFolder" value="C:\Reportes"/>
+  <taggedValue xmi:id="_e7rsstF2EfGk7IBz-sW1Kg" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_e7rss9F2EfGk7IBz-sW1Kg" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_e7rstNF2EfGk7IBz-sW1Kg" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_e7rstdF2EfGk7IBz-sW1Kg" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_e7rsttF2EfGk7IBz-sW1Kg" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_e7rst9F2EfGk7IBz-sW1Kg" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_e7rsuNF2EfGk7IBz-sW1Kg" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_e7rsudF2EfGk7IBz-sW1Kg" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_e7rsutF2EfGk7IBz-sW1Kg" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:bXF48tyzexnRh3y6d49OanG8Yhoz8+KrJhP2Ig=="/>
+  <taggedValue xmi:id="_e7rsu9F2EfGk7IBz-sW1Kg" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_e7rsvNF2EfGk7IBz-sW1Kg" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\Talend\8.0.1\studio\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_e7rsvdF2EfGk7IBz-sW1Kg" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_e7rsvtF2EfGk7IBz-sW1Kg" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_e7rsv9F2EfGk7IBz-sW1Kg" tag="Author" value="ariel.chango@trial.mj0p2bx89nsod3l.us.qlikcloud.com"/>
+  <taggedValue xmi:id="_e-l2wNF2EfGk7IBz-sW1Kg" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_e-md0NF2EfGk7IBz-sW1Kg" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_nXkT4NF2EfGk7IBz-sW1Kg" tag="OutputFileName" value="Reporte de geolocalización"/>
+  <taggedValue xmi:id="_nXkT4dF2EfGk7IBz-sW1Kg" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_uBRLwNF2EfGk7IBz-sW1Kg" tag="Purpose" value="R_analisis_de_geolocalizacion"/>
+  <taggedValue xmi:id="_uBRLwdF2EfGk7IBz-sW1Kg" tag="Description" value=""/>
+  <taggedValue xmi:id="_uBRLwtF2EfGk7IBz-sW1Kg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_uBSZ4dF2EfGk7IBz-sW1Kg" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_uBSZ4tF2EfGk7IBz-sW1Kg" tag="REP_AUTHPASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_uBSZ49F2EfGk7IBz-sW1Kg" tag="REP_CLIENTSECRET_CONTEXT" value="false"/>
+  <analysisMap xmi:id="_e7rswNF2EfGk7IBz-sW1Kg" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/analisis_de_geolocalizacion_0.1.ana#_0bvxUNF1EfGk7IBz-sW1Kg"/>
+  </analysisMap>
+  <ExecInformations xmi:id="__SFzUNF2EfGk7IBz-sW1Kg" executionDate="2026-10-26T14:52:07.627-0500" executionDuration="113209" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <context xmi:id="_uBSZ4NF2EfGk7IBz-sW1Kg" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

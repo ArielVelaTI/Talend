@@ -9,4 +9,61 @@
 	<natures>
 		<nature>org.talend.core.talendnature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.R_analisis_customer-20261026-1443-00048.pdf</name>
+			<type>1</type>
+			<location>C:/Talend/8.0.1/studio/workspace/Talend-400129793/CAPACITACION_TALEND/TDQ_Data Profiling/Reports/.R_analisis_customer_0.1/R_analisis_customer-20261026-1443-00048.pdf</location>
+		</link>
+		<link>
+			<name>.Reporte de Sellers-20261026-1943-00006.xls</name>
+			<type>1</type>
+			<location>C:/Reportes/Reporte de Sellers-20261026-1943-00006.xls</location>
+		</link>
+		<link>
+			<name>.Reporte de geolocalización-20261026-1454-00002.pdf</name>
+			<type>1</type>
+			<location>C:/Reportes/Reporte de geolocalización-20261026-1454-00002.pdf</location>
+		</link>
+		<link>
+			<name>.Reporte de los productos-20261026-1457-00011.xls</name>
+			<type>1</type>
+			<location>C:/Reportes/Reporte de los productos-20261026-1457-00011.xls</location>
+		</link>
+		<link>
+			<name>.Reporte de orders items-20261026-1503-00053.xls</name>
+			<type>1</type>
+			<location>C:/Reportes/Reporte de orders items-20261026-1503-00053.xls</location>
+		</link>
+		<link>
+			<name>.Reporte de orders pyment-20261026-1938-00055.xls</name>
+			<type>1</type>
+			<location>C:/Reportes/Reporte de orders pyment-20261026-1938-00055.xls</location>
+		</link>
+		<link>
+			<name>.Reporte de orders reviews-20261026-1506-00051.xls</name>
+			<type>1</type>
+			<location>C:/Reportes/Reporte de orders reviews-20261026-1506-00051.xls</location>
+		</link>
+		<link>
+			<name>.Reporte de product_category_name_translation.xls</name>
+			<type>1</type>
+			<location>C:/Reportes/Reporte de product_category_name_translation.xls</location>
+		</link>
+		<link>
+			<name>.Reporte_customer-20261026-1445-00002.xls</name>
+			<type>1</type>
+			<location>C:/Reportes/Reporte_customer-20261026-1445-00002.xls</location>
+		</link>
+		<link>
+			<name>.Reporte_orders-20261026-1438-00058.xls</name>
+			<type>1</type>
+			<location>C:/Reportes/Reporte_orders-20261026-1438-00058.xls</location>
+		</link>
+		<link>
+			<name>.analisis_de_geolocalizacion-20261026-1500-00013.xls</name>
+			<type>1</type>
+			<location>C:/Reportes/analisis_de_geolocalizacion-20261026-1500-00013.xls</location>
+		</link>
+	</linkedResources>
 </projectDescription>

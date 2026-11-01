@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_mAoZkMv5EfGZzMhpNuWmEw" name="product_category_name_translation" supplierDependency="_v2GC0tGfEfGAIvdQgkCceQ" dataPackage="_mAoZkcv5EfGZzMhpNuWmEw" Server="Localhost 127.0.0.1" FilePath="C:/Talend_csv/product_category_name_translation.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="2" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_mAoZkcv5EfGZzMhpNuWmEw" name="default" dataManager="_mAoZkMv5EfGZzMhpNuWmEw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mAoZksv5EfGZzMhpNuWmEw" id="_esUecMv5EfGZzMhpNuWmEw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mAoZk8v5EfGZzMhpNuWmEw" id="beleza_saude" label="beleza_saude" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2GC09GfEfGAIvdQgkCceQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mAoZlMv5EfGZzMhpNuWmEw" id="health_beauty" label="health_beauty" length="39" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2GC5tGfEfGAIvdQgkCceQ" tag="Content Type" value="Nominal"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_v2GC0tGfEfGAIvdQgkCceQ" kind="Usage" supplier="_mAoZkMv5EfGZzMhpNuWmEw">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Análisis_de_product_category_name_translation_0.1.ana#_k_N_0NGfEfGAIvdQgkCceQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

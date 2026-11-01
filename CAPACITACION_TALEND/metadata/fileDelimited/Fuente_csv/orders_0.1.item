@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Nc7O4MwoEfGZzMhpNuWmEw" name="orders" supplierDependency="_S68woNF0EfGk7IBz-sW1Kg" id="_Nc6n0MwoEfGZzMhpNuWmEw" dataPackage="_Nc7O4cwoEfGZzMhpNuWmEw" Server="Localhost 127.0.0.1" FilePath="C:/Talend_csv/olist_orders_dataset.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Nc7O4cwoEfGZzMhpNuWmEw" name="default" dataManager="_Nc7O4MwoEfGZzMhpNuWmEw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Nc7O4swoEfGZzMhpNuWmEw" id="_CCTlsMwoEfGZzMhpNuWmEw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nc7O48woEfGZzMhpNuWmEw" id="_order_id" label="_order_id" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_S68wodF0EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nc7O5MwoEfGZzMhpNuWmEw" id="_customer_id" label="_customer_id" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_S68wtNF0EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nc7O5cwoEfGZzMhpNuWmEw" id="_order_status" label="_order_status" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_S68wx9F0EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nc7O5swoEfGZzMhpNuWmEw" id="_order_purchase_timestamp" label="_order_purchase_timestamp" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_S68w0tF0EfGk7IBz-sW1Kg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nc7O58woEfGZzMhpNuWmEw" id="_order_approved_at" label="_order_approved_at" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_S68w3dF0EfGk7IBz-sW1Kg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nc7O6MwoEfGZzMhpNuWmEw" id="_order_delivered_carrier_date" label="_order_delivered_carrier_date" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_S68w8NF0EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nc7O6cwoEfGZzMhpNuWmEw" id="_order_delivered_customer_date" label="_order_delivered_customer_date" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_S69XttF0EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Nc7O6swoEfGZzMhpNuWmEw" id="_order_estimated_delivery_date" label="_order_estimated_delivery_date" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_S69XwdF0EfGk7IBz-sW1Kg" tag="Content Type" value="Interval"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_S68woNF0EfGk7IBz-sW1Kg" kind="Usage" supplier="_Nc7O4MwoEfGZzMhpNuWmEw">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Analisis_orders_0.1.ana#_EIWfANF0EfGk7IBz-sW1Kg"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

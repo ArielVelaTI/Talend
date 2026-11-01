@@ -1,0 +1,38 @@
+{
+  "itemId" : "_NszqMM12EfGTaoVfUraVYA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_mNO6wM1wEfGTaoVfUraVYA",
+    "parameterList" : [ {
+      "id" : "_Pd7roMycEfGtI9MbLn5j0Q",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_MKMfcMybEfGtI9MbLn5j0Q",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_MKMfcsybEfGtI9MbLn5j0Q",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_MKMfc8ybEfGtI9MbLn5j0Q",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_MKMfccybEfGtI9MbLn5j0Q",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_cKK6YM1wEfGTaoVfUraVYA",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_nuGgYsybEfGtI9MbLn5j0Q",
+      "name" : "FILE_OLIST_CUSTOMERS"
+    }, {
+      "id" : "_nuGgYMybEfGtI9MbLn5j0Q",
+      "name" : "FILE_OLIST_ORDERS"
+    }, {
+      "id" : "_cKK6Yc1wEfGTaoVfUraVYA",
+      "name" : "FILE_OLIST_PRODUCTS"
+    }, {
+      "id" : "_cKK6Ys1wEfGTaoVfUraVYA",
+      "name" : "PIPELINE_NAME"
+    } ]
+  } ]
+}

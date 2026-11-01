@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_SGniINGfEfGAIvdQgkCceQ" name="R_Análisis_de_sellers" creationDate="2026-10-26T19:42:27.008-0500" defaultContext="Default">
+  <clientDependency href="../Analyses/Análisis_de_sellers_0.1.ana#_SGoJMNGfEfGAIvdQgkCceQ"/>
+  <taggedValue xmi:id="_SGniIdGfEfGAIvdQgkCceQ" tag="OutputFolder" value="C:\Reportes"/>
+  <taggedValue xmi:id="_SGniItGfEfGAIvdQgkCceQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_SGniI9GfEfGAIvdQgkCceQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_SGniJNGfEfGAIvdQgkCceQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_SGniJdGfEfGAIvdQgkCceQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_SGniJtGfEfGAIvdQgkCceQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_SGniJ9GfEfGAIvdQgkCceQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_SGniKNGfEfGAIvdQgkCceQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_SGniKdGfEfGAIvdQgkCceQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_SGniKtGfEfGAIvdQgkCceQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:nTE6EEN1HLDBR09oBQnUhbMYxZ3EBmaA0PaJfA=="/>
+  <taggedValue xmi:id="_SGniK9GfEfGAIvdQgkCceQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_SGniLNGfEfGAIvdQgkCceQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\Talend\8.0.1\studio\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_SGniLdGfEfGAIvdQgkCceQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_SGniLtGfEfGAIvdQgkCceQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_SGniL9GfEfGAIvdQgkCceQ" tag="Author" value="ariel.chango@trial.mj0p2bx89nsod3l.us.qlikcloud.com"/>
+  <taggedValue xmi:id="_SIi0wNGfEfGAIvdQgkCceQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_SIi0wdGfEfGAIvdQgkCceQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_VBR8cNGfEfGAIvdQgkCceQ" tag="OutputFileName" value="Reporte de Sellers"/>
+  <taggedValue xmi:id="_W7XqkNGfEfGAIvdQgkCceQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_XIij4NGfEfGAIvdQgkCceQ" tag="Purpose" value="R_Análisis_de_sellers"/>
+  <taggedValue xmi:id="_XIij4dGfEfGAIvdQgkCceQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_XIij4tGfEfGAIvdQgkCceQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_XIkZEdGfEfGAIvdQgkCceQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_XIkZEtGfEfGAIvdQgkCceQ" tag="REP_AUTHPASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_XIkZE9GfEfGAIvdQgkCceQ" tag="REP_CLIENTSECRET_CONTEXT" value="false"/>
+  <analysisMap xmi:id="_SGniMNGfEfGAIvdQgkCceQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/Análisis_de_sellers_0.1.ana#_CBJ6cdGfEfGAIvdQgkCceQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_XlJnYNGfEfGAIvdQgkCceQ" executionDate="2026-10-26T19:43:03.272-0500" executionDuration="494" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <context xmi:id="_XIkZENGfEfGAIvdQgkCceQ" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

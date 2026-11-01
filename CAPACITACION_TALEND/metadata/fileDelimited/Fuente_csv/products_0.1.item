@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_uWIJ8M1vEfGTaoVfUraVYA" name="products" supplierDependency="_OlfE8tF3EfGk7IBz-sW1Kg" dataPackage="_uWIJ8c1vEfGTaoVfUraVYA" Server="Localhost 127.0.0.1" FilePath="C:/Talend_csv/olist_products_dataset.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_uWIJ8c1vEfGTaoVfUraVYA" name="default" dataManager="_uWIJ8M1vEfGTaoVfUraVYA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_uWIJ8s1vEfGTaoVfUraVYA" id="_ZdxbAM1vEfGTaoVfUraVYA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uWIJ881vEfGTaoVfUraVYA" id="_product_id" label="_product_id" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_OlfE89F3EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uWIJ9M1vEfGTaoVfUraVYA" id="_product_category_name" label="_product_category_name" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_OlfFBtF3EfGk7IBz-sW1Kg" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uWIJ9c1vEfGTaoVfUraVYA" id="_product_name_lenght" label="_product_name_lenght" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_OlfFEdF3EfGk7IBz-sW1Kg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uWIJ9s1vEfGTaoVfUraVYA" id="_product_description_lenght" label="_product_description_lenght" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_OlfFHNF3EfGk7IBz-sW1Kg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uWIJ981vEfGTaoVfUraVYA" id="_product_photos_qty" label="_product_photos_qty" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_OlfFJ9F3EfGk7IBz-sW1Kg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uWIJ-M1vEfGTaoVfUraVYA" id="_product_weight_g" label="_product_weight_g" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_OlfFMtF3EfGk7IBz-sW1Kg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uWIJ-c1vEfGTaoVfUraVYA" id="_product_length_cm" label="_product_length_cm" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_OlfFPdF3EfGk7IBz-sW1Kg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uWIJ-s1vEfGTaoVfUraVYA" id="_product_height_cm" label="_product_height_cm" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_OlfFSNF3EfGk7IBz-sW1Kg" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uWIJ-81vEfGTaoVfUraVYA" id="_product_width_cm" label="_product_width_cm" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_OlfFU9F3EfGk7IBz-sW1Kg" tag="Content Type" value="Interval"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_OlfE8tF3EfGk7IBz-sW1Kg" kind="Usage" supplier="_uWIJ8M1vEfGTaoVfUraVYA">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Analisis_de_productos_0.1.ana#_BK9ZcNF3EfGk7IBz-sW1Kg"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

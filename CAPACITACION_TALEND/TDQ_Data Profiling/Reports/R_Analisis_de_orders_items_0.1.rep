@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_LNgnANF4EfGk7IBz-sW1Kg" name="R_Analisis_de_orders_items" creationDate="2026-10-26T15:02:30.382-0500" defaultContext="Default">
+  <clientDependency href="../Analyses/Analisis_de_orders_items_0.1.ana#_LNh1INF4EfGk7IBz-sW1Kg"/>
+  <taggedValue xmi:id="_LNgnAdF4EfGk7IBz-sW1Kg" tag="OutputFolder" value="C:\Reportes"/>
+  <taggedValue xmi:id="_LNgnAtF4EfGk7IBz-sW1Kg" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_LNgnA9F4EfGk7IBz-sW1Kg" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_LNgnBNF4EfGk7IBz-sW1Kg" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_LNgnBdF4EfGk7IBz-sW1Kg" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_LNgnBtF4EfGk7IBz-sW1Kg" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_LNgnB9F4EfGk7IBz-sW1Kg" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_LNgnCNF4EfGk7IBz-sW1Kg" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_LNgnCdF4EfGk7IBz-sW1Kg" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_LNgnCtF4EfGk7IBz-sW1Kg" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:jIEpuQBxdbcYj7ucz2mHO/I+Cr/5j2D9broqYA=="/>
+  <taggedValue xmi:id="_LNgnC9F4EfGk7IBz-sW1Kg" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_LNgnDNF4EfGk7IBz-sW1Kg" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\Talend\8.0.1\studio\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_LNgnDdF4EfGk7IBz-sW1Kg" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_LNgnDtF4EfGk7IBz-sW1Kg" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_LNgnD9F4EfGk7IBz-sW1Kg" tag="Author" value="ariel.chango@trial.mj0p2bx89nsod3l.us.qlikcloud.com"/>
+  <taggedValue xmi:id="_LPJlwNF4EfGk7IBz-sW1Kg" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_LPJlwdF4EfGk7IBz-sW1Kg" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_PUGo8NF4EfGk7IBz-sW1Kg" tag="OutputFileName" value="Reporte de orders items"/>
+  <taggedValue xmi:id="_PUGo8dF4EfGk7IBz-sW1Kg" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_TWBmQNF4EfGk7IBz-sW1Kg" tag="Purpose" value="R_Analisis_de_orders_items"/>
+  <taggedValue xmi:id="_TWBmQdF4EfGk7IBz-sW1Kg" tag="Description" value=""/>
+  <taggedValue xmi:id="_TWBmQtF4EfGk7IBz-sW1Kg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_TWC0YdF4EfGk7IBz-sW1Kg" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_TWC0YtF4EfGk7IBz-sW1Kg" tag="REP_AUTHPASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_TWC0Y9F4EfGk7IBz-sW1Kg" tag="REP_CLIENTSECRET_CONTEXT" value="false"/>
+  <analysisMap xmi:id="_LNgnENF4EfGk7IBz-sW1Kg" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/Analisis_de_orders_items_0.1.ana#_48qs4NF3EfGk7IBz-sW1Kg"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_XWtNcNF4EfGk7IBz-sW1Kg" executionDate="2026-10-26T15:03:27.422-0500" executionDuration="24457" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <context xmi:id="_TWC0YNF4EfGk7IBz-sW1Kg" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

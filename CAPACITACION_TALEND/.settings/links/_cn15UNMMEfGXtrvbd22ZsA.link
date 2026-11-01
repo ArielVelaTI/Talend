@@ -1,0 +1,133 @@
+{
+  "itemId" : "_cn15UNMMEfGXtrvbd22ZsA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_MXIt8NLrEfGXtrvbd22ZsA",
+    "parameterList" : [ {
+      "id" : "_vzfcYdLsEfGXtrvbd22ZsA",
+      "name" : "batch_size"
+    }, {
+      "id" : "_Pd7roMycEfGtI9MbLn5j0Q",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_MKMfcMybEfGtI9MbLn5j0Q",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_MKMfcsybEfGtI9MbLn5j0Q",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_MKMfc8ybEfGtI9MbLn5j0Q",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_MKMfccybEfGtI9MbLn5j0Q",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_cKK6YM1wEfGTaoVfUraVYA",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_nuGgYsybEfGtI9MbLn5j0Q",
+      "name" : "FILE_OLIST_CUSTOMERS"
+    }, {
+      "id" : "_nuGgYMybEfGtI9MbLn5j0Q",
+      "name" : "FILE_OLIST_ORDERS"
+    }, {
+      "id" : "_cKK6Yc1wEfGTaoVfUraVYA",
+      "name" : "FILE_OLIST_PRODUCTS"
+    }, {
+      "id" : "_nuGgYcybEfGtI9MbLn5j0Q",
+      "name" : "LOAD_SOURCE_TAG"
+    }, {
+      "id" : "_cKK6Ys1wEfGTaoVfUraVYA",
+      "name" : "PIPELINE_NAME"
+    }, {
+      "id" : "_vzfcYNLsEfGXtrvbd22ZsA",
+      "name" : "run_id"
+    } ]
+  }, {
+    "contextName" : "QA",
+    "repoId" : "_MXIt8NLrEfGXtrvbd22ZsA",
+    "parameterList" : [ {
+      "id" : "_vzfcZdLsEfGXtrvbd22ZsA",
+      "name" : "batch_size"
+    }, {
+      "id" : "_5fa3BM2NEfGTaoVfUraVYA",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_5fa2_c2NEfGTaoVfUraVYA",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_5fa2_82NEfGTaoVfUraVYA",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_5fa3AM2NEfGTaoVfUraVYA",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_5fa2_s2NEfGTaoVfUraVYA",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_5fa3Bc2NEfGTaoVfUraVYA",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_5fa3A82NEfGTaoVfUraVYA",
+      "name" : "FILE_OLIST_CUSTOMERS"
+    }, {
+      "id" : "_5fa3Ac2NEfGTaoVfUraVYA",
+      "name" : "FILE_OLIST_ORDERS"
+    }, {
+      "id" : "_5fa3Bs2NEfGTaoVfUraVYA",
+      "name" : "FILE_OLIST_PRODUCTS"
+    }, {
+      "id" : "_5fa3As2NEfGTaoVfUraVYA",
+      "name" : "LOAD_SOURCE_TAG"
+    }, {
+      "id" : "_5fa3B82NEfGTaoVfUraVYA",
+      "name" : "PIPELINE_NAME"
+    }, {
+      "id" : "_vzfcZNLsEfGXtrvbd22ZsA",
+      "name" : "run_id"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_MXIt8NLrEfGXtrvbd22ZsA",
+    "parameterList" : [ {
+      "id" : "_vzfcY9LsEfGXtrvbd22ZsA",
+      "name" : "batch_size"
+    }, {
+      "id" : "_5fa2-M2NEfGTaoVfUraVYA",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_5fa28c2NEfGTaoVfUraVYA",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_5fa2882NEfGTaoVfUraVYA",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_5fa29M2NEfGTaoVfUraVYA",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_5fa28s2NEfGTaoVfUraVYA",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_5fa2-c2NEfGTaoVfUraVYA",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_5fa2982NEfGTaoVfUraVYA",
+      "name" : "FILE_OLIST_CUSTOMERS"
+    }, {
+      "id" : "_5fa29c2NEfGTaoVfUraVYA",
+      "name" : "FILE_OLIST_ORDERS"
+    }, {
+      "id" : "_5fa2-s2NEfGTaoVfUraVYA",
+      "name" : "FILE_OLIST_PRODUCTS"
+    }, {
+      "id" : "_5fa29s2NEfGTaoVfUraVYA",
+      "name" : "LOAD_SOURCE_TAG"
+    }, {
+      "id" : "_5fa2-82NEfGTaoVfUraVYA",
+      "name" : "PIPELINE_NAME"
+    }, {
+      "id" : "_vzfcYtLsEfGXtrvbd22ZsA",
+      "name" : "run_id"
+    } ]
+  } ]
+}
